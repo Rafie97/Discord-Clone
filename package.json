@@ -1,5 +1,5 @@
 {
-  "name": "city-search",
+  "name": "discord-clone",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -33,5 +33,9 @@
     "request": "^2.88.0",
     "selenium-webdriver": "^3.6.0",
     "serve-favicon": "^2.4.3"
-  }
+  },
+  "permissions": [
+    "*://localhost/*",
+    "webRequest"
+  ]
 }
